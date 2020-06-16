@@ -1,3 +1,4 @@
+
 fail = open("albumid.txt", encoding='utf-8', errors ='ignore')
 albumid = []
 for rida in fail:
