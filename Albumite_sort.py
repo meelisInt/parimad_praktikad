@@ -15,3 +15,4 @@ for rida in fail:
             print()
     print(rida)
 fail.close()
+# edasi teeme otsing
