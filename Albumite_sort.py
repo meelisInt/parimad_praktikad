@@ -15,7 +15,7 @@ def nimekiri_lugudest():
                 print()
         print(rida)
     fail.close()
-# edasi teeme otsing
+# edasi teeme otsingu
 def otsing_albumid(otsitav_album):
     fail = open("albumid.txt", encoding='utf-8', errors ='ignore')
     albumid = []
@@ -41,11 +41,11 @@ def otsing_albumid(otsitav_album):
 print("1 - kõik albumid ja lood albumite kaupa")
 print("2 - kõik albumid")
 print("3 - albumi otsing")
-print("4 - lugu otsing")
+print("4 - lugude otsing")
 print()
 valik = int(input("Sisesta oma valik: "))
 if(valik == 1):
     nimekiri_lugudest()
 if(valik == 3):
-    otsitav_album = input("Milline album otsid: ")
+    otsitav_album = input("Millist albumit otsid: ")
     otsing_albumid(otsitav_album)
